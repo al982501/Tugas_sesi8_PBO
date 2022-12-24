@@ -25,7 +25,7 @@ class Mahasiswa<I,N,C>{
 public class MahasiswaKu {
     public static void main(String[] args) {
         Mahasiswa <String,String,Integer> m = new Mahasiswa<>();
-        m.setMahasiswa("201011", "Ario", 12);
+        m.setMahasiswa("201011", "Abdul", 07);
         
         System.out.println(m.getName());
         System.out.println(m.getNim());
